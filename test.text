@@ -1,0 +1,3 @@
+git config --global user.name "DAVIDIRADUKUNDA"
+git config --global user.email " iradukundadavid1999@gmail.com"
+git config --global core.editor "vim"                  
