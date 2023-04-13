@@ -1,0 +1,12 @@
+Fork a public repository on GitHub that you want to work on. 
+Clone the forked repository to your local computer using the command git clone <repository-url>, where <repository-url> is the URL of the forked repository on GitHub. 
+Create a new branch called "my-feature-branch" using the command git checkout -b my-feature-branch. 
+Make some changes to the repository, such as adding a new file or modifying an existing file. For example, you could add a new line of text to a README file, or create a new file with some code. 
+Use the command git add <file-name> to stage the changes you made. 
+Use the command git commit -m "Add my new feature" to commit the changes to your local repository. 
+Switch back to the master branch using the command git checkout master. 
+Make sure your master branch is up-to-date with the original repository by using the command git remote add upstream <original-repository-url> to add the original repository as a remote to your local repository, then use the command git fetch upstream to download the changes from the original repository, and finally use the command git merge upstream/master to merge those changes into your local master branch. 
+Switch back to your "my-feature-branch" branch using the command git checkout my-feature-branch. 
+Use the command git rebase master to rebase your changes onto the updated master branch. This will apply your changes on top of the changes that were made to the original repository since you forked it. 
+Use the command git push origin my-feature-branch -f to force-push your changes back to your forked repository on GitHub. 
+My work
